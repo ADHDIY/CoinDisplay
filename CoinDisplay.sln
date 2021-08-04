@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoinDisplay", "CoinDisplay.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-1.0", "..\..\..\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\libraries\Wire\Wire-1.0.vcxitems", "{BDDC31B3-2A19-442A-8006-55D7C3AD24A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266WiFi-1.0", "..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems", "{B1850B99-78F3-4267-B729-6129D04609CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266HTTPClient-1.2", "..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems", "{ED791177-9872-4E8E-B01A-F24AAEF17311}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFiManager-2.0.3-alpha", "..\..\..\Documents\Arduino\libraries\WiFiManager\WiFiManager-2.0.3-alpha.vcxitems", "{40850A74-AB4F-4A30-AEA8-A222092DEA5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DD02846-CAF7-4F70-B898-94CF5B6DB306}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Documents\Arduino\libraries\WiFiManager\WiFiManager-2.0.3-alpha.vcxitems*{40850a74-ab4f-4a30-aea8-a222092dea5e}*SharedItemsImports = 9
+		..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{b1850b99-78f3-4267-b729-6129d04609ca}*SharedItemsImports = 9
+		..\..\..\AppData\Local\arduino15\packages\arduino\hardware\avr\1.8.3\libraries\Wire\Wire-1.0.vcxitems*{bddc31b3-2a19-442a-8006-55d7c3ad24a6}*SharedItemsImports = 9
+		..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\Documents\Arduino\libraries\WiFiManager\WiFiManager-2.0.3-alpha.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{ed791177-9872-4e8e-b01a-f24aaef17311}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C6ED0A3-95C7-491A-A532-188D35468799}
+	EndGlobalSection
+EndGlobal
